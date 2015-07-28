@@ -1,0 +1,18 @@
+def Palindrome(str)
+
+  # code goes here
+  str = str.split(" ")
+  new_str = ""
+  ori_str = ""
+  for i in 0...str.length
+    new_str += str[i]
+  end
+  rev_str = new_str.reverse
+  
+  return new_str == rev_str 
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+Palindrome(STDIN.gets)  
