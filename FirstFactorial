@@ -1,0 +1,14 @@
+def FirstFactorial(num)
+
+  # code goes here
+  num1 = 1
+  num.downto(1){|i| num1=i*num1 }
+  
+  
+  return num1 
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+FirstFactorial(STDIN.gets)           
