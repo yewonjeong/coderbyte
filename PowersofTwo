@@ -1,0 +1,17 @@
+def PowersofTwo(num)
+
+  # code goes here
+  i=0
+  while 2**i <= num
+    if 2**i == num
+      return "true"
+    else
+      i += 1
+    end
+  end
+    return "false"
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+PowersofTwo(STDIN.gets) 
