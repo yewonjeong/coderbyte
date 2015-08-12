@@ -1,0 +1,15 @@
+def NumberAddition(str)
+
+  # code goes here
+  num = str.scan(/\d+/)
+  sum = num.map(&:to_i).reduce(:+)
+  
+  return sum 
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+NumberAddition(STDIN.gets)  
+  
+ 
